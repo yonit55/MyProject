@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html ng-app="MyApp">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="lib/angular-loading-bar/loading-bar.css" rel="stylesheet">
+	<link href="StyleSheet.css" rel="stylesheet" />
+
+	<!--<script src="http://connect.facebook.net/en_US/all.js"></script>-->
+	<script src="lib/angular/angular.min.js"></script>
+	<script src="lib/angular-ui/ui-bootstrap-tpls-0.14.3.min.js"></script>
+	<script src="lib/angular/angular-route.min.js"></script>
+	<script src="lib/angular/angular-resource.min.js"></script>
+	<script src="lib/angular-loading-bar/loading-bar.js"></script>
+	<script src="lib/underscore/underscore.min.js"></script>
+	<script src="app.js"></script>
+	<script src="route.js"></script>
+	<script src="service.js"></script>
+	<script src="controller.js"></script>
+
+	<script src="directive/directive.js"></script>
+	<title></title>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<ul class="nav navbar-nav">
+			<li>
+				<a href="/#/secondary">Taimer</a>
+			</li>
+
+			<li>
+				<a href="/#/images">Image</a>
+			</li>
+			
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="/#/Profile"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+			<li><a href="/#/Profile"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		</ul>
+	</nav><div>
+		<div ng-view=""></div>
+	</div>
+</body>
+</html>

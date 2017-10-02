@@ -1,0 +1,10 @@
+﻿<div id="fb-root"></div>
+
+<div data-role="page" id="profile">
+		{{name}}
+		<h1>Profile</h1>
+
+	<button id="fb-login" ng-click="FacebookLogin()">Login & Permissions</button>
+	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+	</fb:login-button>
+</div>

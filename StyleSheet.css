@@ -1,0 +1,43 @@
+﻿button {
+	margin-bottom: 10px;
+}
+
+h4 {
+	background-color: lightblue;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.fade-in-out {
+	transition: 1s linear all;
+	opacity: 1;
+}
+
+	.fade-in-out.ng-hide {
+		opacity: 0;
+	}
+/*$randomColor: random(5); 
+.thing {
+	animation-duration: $randomNumber + s;
+}*/
+.odd {
+	color: red;
+}
+
+.even {
+	color: blue;
+}
+.customClassRed {
+	color: red;
+}
+
+.customClass {
+	color: black;
+}
+
+.customClassYellow {
+	color: #f9f41e;
+}
